@@ -1,5 +1,22 @@
 {% extends "formulario1/base.html" %}
 
 {% block content %}
-	<h1>Hola</h1>
+	<div class="container">
+		<div class="row">
+			<h1>Conducto Individual</h1>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="form-floating">
+					<select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+						<option selected>Tipo de conducto</option>
+						<option value="1">Individual</option>
+						<option value="2">Colectivo</option>
+					</select>
+					<label for="floatingSelect">Conducto</label>
+				</div>
+			</div>
+		</div>
+	</div>
 {% endblock content %}
